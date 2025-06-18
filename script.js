@@ -21,7 +21,7 @@ document.getElementById("envio").addEventListener("click", function(event) {
     for (var i=0; i < custos.length; i++) {
         custo += custos[i];
     }
-    console.log(ingredientes);
+    console.log(ingredientes, custos);
     document.getElementById("addingrediente").innerText = "O ingrediente '" + ingrediente + "' custou: R$" + custoreceita.toFixed(2) + "💸";
 
     document.getElementById("resultado").innerText = "A receita custou: R$ "+ custo.toFixed(2) + "💸";
